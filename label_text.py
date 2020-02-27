@@ -1,0 +1,27 @@
+from tkinter import *
+from tkinter import ttk
+from PIL import ImageTk
+rw = Tk()
+l = ttk.Label(rw,text="Prof. Dr. R. R. Deshmukh \n Professor,\n Sectional President,\n ICT Section, ISCA-2019,\n Program Coordinator DST-FIST,\n Department of Computer Science and IT,\n  Dr. Babasabheb Ambedkar Marathwada University,\n  Aurangabad(MS),\n  INDIA")
+l.pack()
+##l.config( text= "It the mind that always puts you in difficult position")
+##l.config(wraplength =50)
+l.config(justify =CENTER)
+l.config(font =('Bahnschrift',10,'bold'))
+mp = ImageTk.PhotoImage( file = "D://M.Tech3rdSem//WorkProject//GUIWork//sirji.png")
+l.config(image=mp)
+l.config(compound = "text")
+l.config(compound = "image")
+l.config(compound = "top")
+
+m = ttk.Label(rw,text="Nikhil M. Sapate \n M.Tech( CSE ) ,\n Research fellow ,\n Software Developer ,\n Multispectral Laboratory, \n Department of Computer Science and IT,\n  Dr. Babasabheb Ambedkar Marathwada University,\n  Aurangabad(MS),\n  INDIA")
+m.pack()
+##l.config( text= "It the mind that always puts you in difficult position")
+##l.config(wraplength =50)
+m.config(justify =CENTER)
+m.config(font =('Bahnschrift',10,'bold'))
+np = ImageTk.PhotoImage( file = "D://M.Tech3rdSem//WorkProject//GUIWork//real.png")
+m.config(image=np)
+m.config(compound = "text")
+m.config(compound = "image")
+m.config(compound = "top")
